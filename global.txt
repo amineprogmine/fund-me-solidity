@@ -1,0 +1,25 @@
+New install:
+install nodejs via site web
+install curl via sudo apt install curl
+install git via sudo apt install git-all
+enable corepack for yarn via sudo corepack enable
+
+Tip:
+Yarn install to install from package.json
+
+New project:
+install hardhat via yarn add --dev hardhat
+launch hardhat via yarn hardhat
+
+for solhint if needed: yarn add solhint
+
+
+_____________________________________________________________
+
+to store all deployments:
+delete deploy.js + create deploy folder
+
+run yarn add --dev  @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
+
+
+
